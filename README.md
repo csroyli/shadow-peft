@@ -37,7 +37,7 @@ Input
 
 Three trainable components control the adaptation:
 
-- **Shadow Model** — a small copy of the base architecture with fewer/smaller layers
+- **Shadow Model** — a small copy of the base architecture with fewer/smaller layers; or a pretrained LLM
 - **ShadowInjectionModel** — projects the difference between base and shadow hidden states back into the base at each layer
 - **ShadowUpdateModel** — uses a gated update to evolve the shadow hidden states as the base model processes each layer
 
